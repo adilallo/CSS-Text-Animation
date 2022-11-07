@@ -2,15 +2,6 @@ body {
   background-color: black;
 }
 
-.extraSmall{
-  font-size: 0.6rem;
-}
-
-img {
-  
-  filter: saturate(2.2) contrast(90%) brightness(125%) drop-shadow(2px 2px 5px white) grayscale(100%);
-}
-
 .jt {
   position: relative;
   font-size: 20vmin;
@@ -40,7 +31,7 @@ img {
   top: 0;
   left: 0;
   user-select: none;
-  witdh:800px;
+  width:800px;
 }
 
 .jt__text {
@@ -81,8 +72,6 @@ img {
   filter: blur(0px);
   }
 }
-
-
 
 .debug .jt__row:nth-child(even) {
   color: black;
